@@ -1,12 +1,15 @@
 html {
     font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
     width: 50%;
     max-width: 750px;
     min-width: 480px;
-    margin: 0 auto;
+
     background-color: rgb(32, 131, 197);
     
 }
@@ -67,6 +70,7 @@ button {
 
 .guesses {
     background-color:black;
+    
 }
 
 #wrapper {
@@ -82,13 +86,20 @@ h1 {
     color: #fff;
     text-align: center;
     width: 750px;
+   
 }
 
 p {
     font-size: 20px;
     text-align: center;
+    margin: 0 0 20px 100px;
 }
+
 ::placeholder{
     color: lightblue;
     font-weight: 10;
+}
+.resultParas{
+    margin-left: -100px;
+    margin-top: 30px;
 }
