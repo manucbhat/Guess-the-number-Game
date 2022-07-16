@@ -87,3 +87,7 @@ p {
     font-size: 20px;
     text-align: center;
 }
+::placeholder{
+    color: lightblue;
+    font-weight: 10;
+}
